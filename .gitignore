@@ -1,6 +1,3 @@
-src/main
-src/target
 pom.xml
 *.codex
-launch.json
-settings.json
+.vscode
