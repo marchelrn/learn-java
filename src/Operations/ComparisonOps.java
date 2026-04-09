@@ -1,4 +1,4 @@
-package src;
+package src.Operations;
 
 public class ComparisonOps {
     public static void main(String[] args) {
