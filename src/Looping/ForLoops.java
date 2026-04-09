@@ -1,4 +1,4 @@
-package src;
+package src.Looping;
 
 public class ForLoops {
     public static void main(String[] args) {
@@ -12,6 +12,10 @@ public class ForLoops {
         int[] numbers = {10, 20, 30};
         for (int num : numbers) {
             System.out.println(num);
+        }
+
+        for (int i = 10 ; i >= 0; --i) {
+            System.out.println(i);
         }
     }
 }
