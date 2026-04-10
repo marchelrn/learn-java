@@ -1,4 +1,4 @@
-package src;
+package src.Method;
 
 public class MethodParam {
     public static void main(String[] args) {
