@@ -8,6 +8,13 @@ class Person {
         address = paramAdrress;
     }
 
+    Person (String paramName){
+        name = paramName;
+    }
+
+    Person (){
+    }
+
     void sayHello(String ParamName) {
         System.out.println("Hello " + ParamName + ", My name is " + name);
     }

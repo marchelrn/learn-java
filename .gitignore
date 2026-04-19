@@ -2,3 +2,6 @@
 *.codex
 .vscode
 .idea
+*jar
+*jar.original
+pom.properties
