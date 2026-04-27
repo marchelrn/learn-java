@@ -12,5 +12,6 @@ public class PersonApp {
         var person3 = new Person();
         person3.name = userName;
         System.out.println(person3.name);
+        person1.sayHello("Budi");
     }   
 } 
