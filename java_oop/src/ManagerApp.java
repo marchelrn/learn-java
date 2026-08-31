@@ -12,5 +12,8 @@ public class ManagerApp {
 //        vp.name = "Joko";
 //        vp.role = "Vice President";
         vp.sayHello(user.name);
+
+        System.out.println(manager);
+        System.out.println(vp);
     }
 }
