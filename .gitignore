@@ -4,4 +4,5 @@
 .idea
 *jar
 *jar.original
+out/*
 pom.properties
