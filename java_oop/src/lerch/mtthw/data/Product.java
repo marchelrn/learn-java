@@ -1,8 +1,8 @@
 package lerch.mtthw.data;
 
 public class Product {
-    String name;
-    Integer price;
+    public String name;
+    public Integer price;
 
     public Product(String name, Integer price) { // use public to use this constructors in different package
         this.name = name;
