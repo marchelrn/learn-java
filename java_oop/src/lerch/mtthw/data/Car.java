@@ -3,5 +3,8 @@ package lerch.mtthw.data;
 public interface Car extends HasBrand, IsMaintenance{
     void drive();
     int getTier();
-    boolean isMaintenance();
+
+    default boolean isBig(){
+        return false;
+    }
 }

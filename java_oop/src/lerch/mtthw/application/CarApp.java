@@ -1,6 +1,7 @@
 package lerch.mtthw.application;
 
 import lerch.mtthw.data.Avanza;
+import lerch.mtthw.data.Bus;
 import lerch.mtthw.data.Car;
 
 public class CarApp {
@@ -11,5 +12,13 @@ public class CarApp {
         car.drive();
         car.getBrand();
         car.isMaintenance();
+
+        Car bigCar = new Bus();
+
+        System.out.println(bigCar.getTier());
+        bigCar.drive();
+        System.out.println(bigCar.getBrand());
+        System.out.println(bigCar.isMaintenance());
+        System.out.println(bigCar.isBig());
     }
 }
