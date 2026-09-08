@@ -11,4 +11,8 @@ public class Product {
         System.out.println("The product name is " + this.name + " and the price is " + this.price);
     }
 
+    public String toString() {
+        return "Product name: " + name + ", price: " + price;
+    }
+
 }
