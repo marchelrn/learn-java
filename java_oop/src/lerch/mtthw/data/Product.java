@@ -13,6 +13,13 @@ public class Product {
         System.out.println("The product name is " + this.name + " and the price is " + this.price);
     }
 
+    @Override
+    public int hashCode() {
+        int result = Objects.hashCode(name);
+        result = 31 * result + Objects.hashCode(price);
+        return result;
+    }
+
     public String toString() {
         return "Product name: " + name + ", price: " + price;
     }
