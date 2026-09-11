@@ -1,4 +1,6 @@
-package lerch.mtthw.data;
+package lerch.mtthw.application;
+
+import lerch.mtthw.data.Product;
 
 public class ProductApp {
     static void main(String[] args) {
