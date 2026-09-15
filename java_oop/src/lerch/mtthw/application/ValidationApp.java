@@ -5,7 +5,7 @@ import lerch.mtthw.error.ValidationException;
 import lerch.mtthw.util.ValidationUtil;
 
 public class ValidationApp {
-    static void main(String[] args) {
+    static void main(String[] args) throws ValidationException {
         LoginRequest loginRequest = new LoginRequest("Marchel", "rahasia");
         try {
             ValidationUtil.validate(loginRequest);
@@ -15,5 +15,10 @@ public class ValidationApp {
         } finally {
             System.out.println("Gw di panggil mulu!");
         }
+
+        LoginRequest loginRequest2 = new LoginRequest(null, null);
+
+        ValidationUtil.validateRuntime(loginRequest2);
+        System.out.println("Sukses");
     }
 }
