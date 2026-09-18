@@ -1,5 +1,3 @@
-import lerch.mtthw.data.*;
-
 public class ManagerApp {
     public static void main(String[] args) {
         var employee = new Employee("Marchel");
@@ -18,7 +16,5 @@ public class ManagerApp {
 
         System.out.println(manager);
         System.out.println(vp);
-
-        var product = new Product("Iphone", 19);
     }
 }
