@@ -1,6 +1,5 @@
 package lerch.mtthw.application;
 
-import jdk.swing.interop.SwingInterOpUtils;
 import lerch.mtthw.data.Customer;
 import lerch.mtthw.data.Level;
 

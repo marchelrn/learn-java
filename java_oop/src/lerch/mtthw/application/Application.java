@@ -9,5 +9,6 @@ public class Application {
         System.out.println(product.name);
 
         Data data = new Data();
+        System.out.println(data.toString());
     }
 }
