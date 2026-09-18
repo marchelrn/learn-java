@@ -6,3 +6,4 @@
 *jar.original
 out/*
 pom.properties
+bin/
